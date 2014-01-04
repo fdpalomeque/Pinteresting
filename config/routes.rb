@@ -1,4 +1,9 @@
 Pinteresting::Application.routes.draw do
+  root "pages#raise"
+  get "invest" => "pages#invest"
+  get "how" => "pages#how"
+  get "legal" => "pages#legal"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

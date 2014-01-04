@@ -7,8 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
+	<%= link_to "Raise", root_path %>
+	<%= link_to "Invest", invest_path %>
+	<%= link_to "How", how_path %>
+	<%= link_to "Legal", legal_path %>
+	<%= yield %>
 
 </body>
 </html>
