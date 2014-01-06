@@ -2,7 +2,7 @@
 
 $font-family-sans-serif:		'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-default-bg:					#2c3e50;
-$navbar-height:							25px;
+$navbar-height:							10px;
 $navbar-default-link-color:	white;
 $jumbotron-bg:							white;
 $brand-primary:							#f39c12;
@@ -12,16 +12,16 @@ $border-radius:							0px;
 
 .center {
 	text-align: center;
+	display: inline;
 }
 
 .margina {
 	margin-left: 6em;
-	position: relative;
 	
 }
 
 .margin {
 	margin-left: 3.5em;
-	position: absolute;
+
 }
 
