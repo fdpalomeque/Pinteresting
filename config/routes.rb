@@ -1,4 +1,6 @@
 Pinteresting::Application.routes.draw do
+  resources :videos
+
   devise_for :users
   root "pages#raise"
   get "invest" => "pages#invest"
