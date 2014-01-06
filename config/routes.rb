@@ -1,4 +1,5 @@
 Pinteresting::Application.routes.draw do
+  devise_for :users
   root "pages#raise"
   get "invest" => "pages#invest"
   get "how" => "pages#how"
